@@ -1,7 +1,7 @@
 {
     "name":"Cuadro de Texto y Lista",
     "short_name":"Escribe",
-    "start_url":"CuadroDeTextoYLista.html",
+    "start_url":"index.html",
     "display":"standalone",
     "background_color":"#3F45FF",
     "theme_color":"#0090FA",
