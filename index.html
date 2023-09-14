@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cuadro de Texto y Lista</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="manifest" href="./manifest.json">
+        <script src="sw.js"></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+          
+    </head>
+    <body>
+        <section class="contenedor">
+
+            <h1>Cuadro de Texto y Lista</h1>
+            
+            <div class="input">
+                <!-- Cuadro de texto para ingresar elementos -->
+                <input type="text" id="inputText" placeholder="Ingresa un texto">
+            </div>
+            <div class="input">
+                <button id="aceptarButton">Agregar</button>
+            </div>
+            <div class="lista">
+                <!-- Lista para mostrar elementos ingresados -->
+                <ul id="listaElementos">
+                </ul>
+            </div>
+
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
